@@ -26,3 +26,5 @@ def kesha_maker(array)
     e[2] = "$"
   end
 end
+
+def 
