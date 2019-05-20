@@ -41,4 +41,17 @@ def sum_array(array)
   array.inject { |sum, n| sum + n } 
 end
 
+def add_s(array)
+  plurals = []
+
+  array.collect do |e|
+      if e == array[1]
+      plurals << e
+    else
+      e << "s"
+      plurals << e
+    end
+    end
+  plurals
+end
 
