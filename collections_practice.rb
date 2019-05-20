@@ -36,3 +36,4 @@ def find_a(array)
     end
     a_words
 end
+
