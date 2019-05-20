@@ -46,12 +46,12 @@ def add_s(array)
 
   array.collect do |e|
       if e == array[1]
-      plurals << e
-    else
-      e << "s"
-      plurals << e
-    end
-    end
+        plurals << e
+      else
+        e << "s"
+        plurals << e
+      end
+  end
   plurals
 end
 
